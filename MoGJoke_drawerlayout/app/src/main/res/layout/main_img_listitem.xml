@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_back">
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white">
+        <!--笑话题目-->
+        <TextView
+            android:id="@+id/joke_img_title"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="题目"
+            android:textStyle="italic"
+            android:textSize="17sp"
+            android:textColor="@color/content_back"/>
+        <ImageView
+            android:id="@+id/joke_share"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/laugh" />
+        <!--题目与内容之间的分割线-->
+        <ImageView
+            android:id="@+id/divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#00000000"/>
+        <!--图片描述-->
+        <TextView
+            android:id="@+id/joke_img_des"
+            android:layout_below="@+id/divider_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <RelativeLayout
+            android:id="@+id/joke_img_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joke_img_des"
+            android:layout_marginTop="10dp">
+
+            <!--笑话图片-->
+            <ImageView
+                android:id="@+id/joke_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+            <!--gif提示图片-->
+            <ImageView
+                android:id="@+id/joke_gif"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="15dp"
+                android:background="#00000000"
+               />
+        </RelativeLayout>
+
+
+        <!--发布时间-->
+        <TextView
+            android:id="@+id/joke_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joke_img_gif"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="7dp"
+            android:textSize="10sp"
+            android:textColor="@color/content_back"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
