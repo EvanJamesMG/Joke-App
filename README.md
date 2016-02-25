@@ -6,4 +6,4 @@
 2.界面清新，操作容易，初学者易于上手。<br>
 3.Material Design 的设计风格，浮动按钮，滑动菜单，丰富你的视觉。<br>
 ## ScreenShot
-![](https://github.com/EvanJamesMG/Joke-App/blob/master/1.png) ![](https://github.com/EvanJamesMG/Joke-App/blob/master/2.png) ![](https://github.com/EvanJamesMG/Joke-App/blob/master/3.png) ![](https://github.com/EvanJamesMG/Joke-App/blob/master/4.png) ![](https://github.com/EvanJamesMG/Joke-App/blob/master/joketitle_256.png) 
+![](https://github.com/EvanJamesMG/Joke-App/blob/master/all.png) 
